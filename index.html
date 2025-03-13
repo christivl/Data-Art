@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Art Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .item {
+            background: white;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .caption {
+            margin-top: 10px;
+            font-size: 1.1em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Art Portfolio</h1>
+    <p>A selection of my visualizations, plots, and animations.</p>
+    <div class="gallery">
+        <!-- Add your images, titles, and descriptions here -->
+        <div class="item">
+            <img src="your-image-file-1.png" alt="Plot 1">
+            <div class="caption">Rainfall heatmap of UK cities (1980–2020)</div>
+        </div>
+        <div class="item">
+            <img src="your-image-file-2.gif" alt="Animation 1">
+            <div class="caption">Animated 3D plot of crystal grain boundary</div>
+        </div>
+        <div class="item">
+            <img src="your-image-file-3.png" alt="Plot 2">
+            <div class="caption">Fourier series fit to annual rainy days in London</div>
+        </div>
+        <!-- Repeat for your 11 files -->
+    </div>
+</body>
+</html>
